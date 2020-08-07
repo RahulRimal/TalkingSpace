@@ -7,7 +7,7 @@
 								</div>
 								<div class="col-md-10">
 									<div class="topic-content float-right">
-										<h3><a href="topic.html" style="color:black;">How did you learn CSS and HTML?</a></h3>
+										<h3><a href="topic.php" style="color:black;">How did you learn CSS and HTML?</a></h3>
 										<div class="topic-info">
 											<a href="category.html" style="color:black;">Development</a> >> <a href="profile.html"style="color:black;">RahulR81</a> >> <p style="display: inline;">Posted on: June 12, 2014</p>
 											<span class="badge badge-secondary float-right">3</span>
@@ -24,7 +24,7 @@
 								</div>
 								<div class="col-md-10">
 									<div class="topic-content float-right">
-										<h3><a href="topic.html" style="color:black;">How to create new page dynamically in php?</a></h3>
+										<h3><a href="topic.php" style="color:black;">How to create new page dynamically in php?</a></h3>
 										<div class="topic-info">
 											<a href="category.html" style="color:black;">Development</a> >> <a href="profile.html"style="color:black;">RahulR81</a> >> <p style="display: inline;">Posted on: June 12, 2014</p>
 											<span class="badge badge-secondary float-right">3</span>
@@ -41,7 +41,7 @@
 								</div>
 								<div class="col-md-10">
 									<div class="topic-content float-right">
-										<h3><a href="topic.html" style="color:black;">Google Panda - Who's affected?</a></h3>
+										<h3><a href="topic.php" style="color:black;">Google Panda - Who's affected?</a></h3>
 										<div class="topic-info">
 											<a href="category.html" style="color:black;">Search Engine</a> >> <a href="profile.html"style="color:black;">RahulR81</a> >> <p style="display: inline;">Posted on: June 12, 2014</p>
 											<span class="badge badge-secondary float-right">3</span>

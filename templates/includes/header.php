@@ -56,10 +56,14 @@
     <link rel="stylesheet" type="text/css" href="<?php echo BASE_URI;?>templates/css/custom.css">
     <!-- Custom styles for this template -->
     <link href="starter-template.css" rel="stylesheet">
+    <script src="<?php echo BASE_URI;?>templates/js/ckeditor/ckeditor.js"></script>
   </head>
+
+
   <body>
+
     <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-  <a class="navbar-brand" href="index.html">Talking Space</a>
+  <a class="navbar-brand" href="index.php">Talking Space</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -67,13 +71,13 @@
   <div class="collapse navbar-collapse" id="navbarsExampleDefault">
     <ul class="navbar-nav ml-auto mr-5">
     	<li class="nav-item">
-        <a class="nav-link active" href="index.html">Home</a>
+        <a class="nav-link active" href="index.php">Home</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="register.html">Create an Account <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="register.php">Create an Account <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="create.html">Create a topic</a>
+        <a class="nav-link" href="create.php">Create a topic</a>
       </li>
     </ul>
   </div>

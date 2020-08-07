@@ -8,7 +8,4 @@
 	// Display template
 	echo $template;
 
-
-
-
 ?>
