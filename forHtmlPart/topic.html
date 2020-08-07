@@ -50,8 +50,12 @@
 		  text-align: center;
 		}
 
-
     </style>
+
+
+    <!-- Custom Css file -->
+    <link rel="stylesheet" type="text/css" href="css/custom.css">
+
     <!-- Custom styles for this template -->
     <link href="starter-template.css" rel="stylesheet">
 
@@ -87,7 +91,7 @@
 		<div class="col-md-8">
 			<div class="col-main">
 				<div class="block">
-					<h2 style="display: inline; float:left;">Create An Account</h2>
+					<h2 style="display: inline; float:left;">How did you learn CSS and HTML?</h2>
 					<h4 style="display: inline; float: right; margin-top: 7px;">A simple PHP forum engine</h4>
 					<div class="clearfix"></div>
 					<hr>
@@ -97,7 +101,7 @@
 								<div class="col-md-2">
 									<div class="user-info">
 
-										<img class="avatar float-left" height="100" width="100" src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png" alt="">
+										<img class="avatar float-left"src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png" alt="">
 										<ul>
 											<li><strong>RahulR</strong></li>
 											<li>43 Posts</li>
@@ -107,11 +111,6 @@
 								</div>
 								<div class="col-md-10">
 									<div class="topic-content float-right">
-										<!-- <h3><a href="topic.html" style="color:black;">How did you learn CSS and HTML?</a></h3>
-										<div class="topic-info">
-											<a href="category.html" style="color:black;">Development</a> >> <a href="profile.html"style="color:black;">RahulR81</a> >> <p style="display: inline;">Posted on: June 12, 2014</p>
-											<span class="badge badge-secondary float-right">3</span>
-										</div> -->
 										<p>I just worked in spilit mode in dreamwaver and paid attention to what was happened on the code end.
 										How did you learn CSS and HTML? How long did it take you until you were proficient?</p>
 									</div>
@@ -122,24 +121,15 @@
 						<li class="topic">
 							<div class="row">
 								<div class="col-md-2">
-									<img class="avatar float-left" height="100" width="100" src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png" alt="">
-								</div>
-								<div class="col-md-10">
-									<div class="topic-content float-right">
-										<h3><a href="topic.html" style="color:black;">How to create new page dynamically in php?</a></h3>
-										<div class="topic-info">
-											<a href="category.html" style="color:black;">Development</a> >> <a href="profile.html"style="color:black;">RahulR81</a> >> <p style="display: inline;">Posted on: June 12, 2014</p>
-											<span class="badge badge-secondary float-right">3</span>
-										</div>
+									<div class="user-info">
+
+										<img class="avatar float-left" src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png" alt="">
+										<ul>
+											<li><strong>RahulR</strong></li>
+											<li>43 Posts</li>
+											<li><a href="profile.php">Profile</a></li>
+										</ul>
 									</div>
-								</div>
-							</div>
-						</li>
-						<hr>
-						<li class="topic">
-							<div class="row">
-								<div class="col-md-2">
-									<img class="avatar float-left" height="100" width="100" src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png" alt="">
 								</div>
 								<div class="col-md-10">
 									<div class="topic-content float-right">
@@ -149,7 +139,35 @@
 							</div>
 						</li>
 						<hr>
+						<li class="topic">
+							<div class="row">
+								<div class="col-md-2">
+									<div class="user-info">
+
+										<img class="avatar float-left" src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png" alt="">
+										<ul>
+											<li><strong>RahulR</strong></li>
+											<li>43 Posts</li>
+											<li><a href="profile.php">Profile</a></li>
+										</ul>
+									</div>
+								</div>
+								<div class="col-md-10">
+									<div class="topic-content float-right">
+										<p>html and css are basics there not much to them the main then you need to learn is how element interacts as one element can make another element behave differently this is the most complex part including the cross browser compatibility.</p>
+									</div>
+								</div>
+							</div>
+						</li>
+						<hr>
 					</ul>
+					<h3>Reply to the Topic</h3>
+					<form>
+						<div class="form-group">
+							<textarea class="form-control" name="reply" id="reply" cols="80" rows="10"></textarea>
+					  	<script>CKEDITOR.replace('reply');</script>
+						</div>
+					</form>
 				</div>
 			</div>			
 		</div>
@@ -172,7 +190,7 @@
 				<div class="block">
 					<h3>Categories</h3>
 					<div class="list-group">
-						<a href="" class="list-group-item">All Topics<span class="badge badge-secondary float-right">14</span></a>
+						<a href="" class="list-group-item active">All Topics<span class="badge badge-secondary float-right">14</span></a>
 						<a href="" class="list-group-item">Design<span class="badge badge-secondary float-right">4</span></a>
 						<a href="" class="list-group-item">Development<span class="badge badge-secondary float-right">9</span></a>
 						<a href="" class="list-group-item">Business & Marketting<span class="badge badge-secondary float-right">12</span></a>
