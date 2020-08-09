@@ -1,11 +1,16 @@
-<?php require('core/init.php');?>
+<?php require('core/init.php'); ?>
 
 <?php
-	
-	// Get Template and assign Variables
-	$template = new Template('templates/frontpage.php');
+//Create Topic Object
+$topic = new Topic;
 
-	// Display template
-	echo $template;
+//Get Template & Assign Vars
+$template = new Template('templates/frontpage.php');
 
-?>
+//Assign Vars
+$template->topics = $topic->getAllTopics();
+$template->totalTopics = $topic->getTotalTopics();
+$template->totalCategories = $topic->getTotalCategories();
+
+//Display template
+echo $template;

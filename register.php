@@ -1,9 +1,11 @@
 <?php require('core/init.php'); ?>
 
 <?php
-	// Get Template and assign variables
-	$template = new Template('templates/register.php');
+//Get Template & Assign Vars
+$template = new Template('templates/register.php');
 
-	// Display Template
-	echo $template;
-?>
+//Assign Vars
+$template->title = 'Create An Account';
+
+//Display template
+echo $template;
